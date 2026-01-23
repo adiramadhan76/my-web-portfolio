@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import ImgProject1 from "./assets/project-kuliah.png";
 import ImgProject2 from "./assets/project-smk.png";
+import ImgProject3 from "./assets/project-kuliah-matkul-teknopreneurship.png";
 
 // Tech icons
 import IconDjango from "./assets/my-skills/Django.png";
@@ -11,6 +12,7 @@ import IconSQLite from "./assets/my-skills/SQLite.png";
 import IconCI from "./assets/my-skills/CodeIgniter.png";
 import IconPhp from "./assets/my-skills/PHP.png";
 import IconMySQL from "./assets/my-skills/MySQL.png";
+import IconReactJS from "./assets/my-skills/ReactJS.png";
 
 const projects = [
   {
@@ -36,6 +38,18 @@ const projects = [
       { icon: IconMySQL, name: "MySQL" },
     ],
     github: "https://github.com/adiramadhan76/ePKL11",
+  },
+  {
+    image: ImgProject3,
+    title: "Tama Catering",
+    description:
+      "Website pemesanan catering online yang memudahkan pelanggan melihat menu dan melakukan pemesanan melalui WhatsApp, sekaligus membantu pengelolaan bisnis catering secara lebih efisien dan modern.",
+    technologies: [
+      { icon: IconReactJS, name: "ReactJS" },
+      { icon: IconPhp, name: "PHP" },
+      { icon: IconMySQL, name: "MySQL" },
+    ],
+    github: "https://github.com/adiramadhan76/catering-react",
   },
 ];
 
@@ -230,4 +244,5 @@ function Projects() {
 }
 
 export default Projects;
+
 
