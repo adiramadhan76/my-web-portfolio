@@ -113,13 +113,13 @@ function Projects() {
           <div className="flex gap-3">
             <button
               onClick={prevSlide}
-              className="w-10 h-10 border border-white text-white flex items-center justify-center hover:bg-white hover:text-black transition"
+              className="w-10 h-10 border border-white text-white flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
             >
               &lt;
             </button>
             <button
               onClick={nextSlide}
-              className="w-10 h-10 border border-white text-white flex items-center justify-center hover:bg-white hover:text-black transition"
+              className="w-10 h-10 border border-white text-white flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
             >
               &gt;
             </button>
@@ -230,3 +230,4 @@ function Projects() {
 }
 
 export default Projects;
+
