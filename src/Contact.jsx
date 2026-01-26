@@ -44,6 +44,7 @@ function Contact() {
           bg-black min-h-screen
           pt-28 md:pt-32
           pb-24 md:pb-32
+          overflow-x-hidden
         "
       >
         <div className="max-w-6xl mx-auto flex flex-col gap-12">
