@@ -202,12 +202,12 @@ function Contact() {
 
       {/* FOOTER */}
       <footer className="bg-black border-t border-neutral-800 py-6 text-center">
-        <p className="text-sm text-[#939393]">&copy; 2026 <span className="text-white font-medium">Adi Ramadhan</span></p>
-        <p className="text-sm text-[#939393]">Made with 🌹, passion, and code</p>
+        <p className="text-sm text-[#939393]">&copy; 2026 <span className="text-white font-medium">Adi Ramadhan.</span> Made with 🤍</p>
       </footer>
     </>
   );
 }
 
 export default Contact;
+
 
