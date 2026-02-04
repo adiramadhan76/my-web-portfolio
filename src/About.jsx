@@ -22,8 +22,8 @@ const skills = [
   { icon: IconPython, name: "Python" },
   { icon: IconCI, name: "CodeIgniter" },
   { icon: IconLaravel, name: "Laravel" },
-  { icon: IconReactJS, name: "ReactJS" },
   { icon: IconDjango, name: "Django" },
+  { icon: IconReactJS, name: "ReactJS" },
   { icon: IconBootstrap, name: "Bootstrap" },
   { icon: IconTailwindCSS, name: "TailwindCSS" },
   { icon: IconMySQL, name: "MySQL" },
@@ -170,3 +170,4 @@ export default function About() {
     </section>
   );
 }
+
