@@ -110,6 +110,7 @@ function Projects() {
         pt-28 md:pt-32
       "
     >
+      <div className="max-w-6xl mx-auto flex flex-col gap-14">
       <motion.div
         variants={sectionVariants}
         initial="hidden"
@@ -239,10 +240,12 @@ function Projects() {
           </AnimatePresence>
         </div>
       </motion.div>
+      </div>
     </section>
   );
 }
 
 export default Projects;
+
 
 
